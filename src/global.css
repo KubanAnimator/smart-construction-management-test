@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@font-face {
+  font-family: "Cygre SemiBold";
+  src: url("/public/Cygre-SemiBold.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Cygre SemiBold";
+  src: url("/public/Cygre-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Cygre Medium";
+  src: url("/public/Cygre-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Cygre";
+  src: url("/public/Cygre-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Cygre";
+  src: url("/public/Cygre-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Cygre Book";
+  src: url("/public/Cygre-Book.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Cygre Black";
+  src: url("/public/Cygre-Black.ttf");
+  font-weight: 900;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
